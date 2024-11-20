@@ -1,32 +1,46 @@
 * {
     margin: 0px;
+    font-family: Roboto;
 }
 
 .first-contact{
     background-color: #1F2937;
 }
 
-.header-block {
+.header-block{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subsection.header-logo{
-    width: 250px;
+    width: 300px;
 }
 
-.subsection#logo{
+.subsection.header-links{
+    width: 1000px;
+    text-align: right;
+}
+
+.info#header-logo{
     font-size: 24px;
     text-align: center;
+    margin: 8px;
 }
 
-.header-block .header-links {
+.info#header-link{
     color: #E5E7EB;
     font-size: 18px;
+    margin: 8px;
 }
 
-.eyecatcher .header,
-.eyecatcher .description,
-.eyecatcher .button,
-.subsection#logo{
+.info#hero-header,
+.info#header-logo{
     color: #F9FAF8;
 }
+
+.info#hero-description,
+.button{
+    color:#E5E7EB;
+}
+
